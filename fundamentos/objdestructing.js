@@ -8,7 +8,7 @@ let mateus = new student("Mateus Miguel", 26, 6)
 let jessica = new student("Jessica Medeiros", 29, 10)
 
 function y({age, note}){
-    return ((new Date().getFullYear()) - idade)
+    return ((new Date().getFullYear()) - age)
 }
 
 console.log(y(mateus), y(jessica))
