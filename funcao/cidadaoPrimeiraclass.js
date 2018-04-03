@@ -5,3 +5,6 @@
 
 // função de foma literal
 function fun1() { }
+
+//armazenar em variável - função anonima e atribui  a const
+const fun2 = function () {}
