@@ -2,6 +2,15 @@
 (function() {
     console.log('Será executado na hora que a função for declarada!')
     console.log('Foge do escopo mais abrangente')
-    var a = 'a';
+    var a = 'a'
     console.log(a)
 })()
+
+function letra (){
+    var a = 'b'
+    return a
+}
+
+console.log(letra())
+
+
